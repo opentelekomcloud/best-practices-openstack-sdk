@@ -1,7 +1,7 @@
 # Best Practices for Automation with OpenStack SDK - OpenStack Europe Meetup May 2023
 The source files for the presentation of 'Best Practices for Automation with OpenStack SDK' can be found in this repository. The presentation was held by Nils Magnus and Tino Schreiber on OpenStack Europe in May 2023.
 
-## Installatation of required packages
+## Installation of required packages
 - switch to a directory of your choice
 - Initialize a Python virtual environment
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 Modify the credentials in the clouds.yaml file to fit your environment.
 ```
-cd src/
+cd best-practices-openstack-sdk/src/
 vi clouds.yaml
 ```
 
@@ -35,6 +35,6 @@ vi clouds.yaml
 
 - With updated credentials you can run the code as follows:
 ```
-cd src/
+cd best-practices-openstack-sdk/src/
 python run.py
 ```
