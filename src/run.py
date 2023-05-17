@@ -1,6 +1,6 @@
 import openstack
 
-cloud   = "otcdomain"       # or "otcdemos"
+cloud   = "otcdomain"       # your clouds.yaml cloud environment comes here
 region  = "eu-de"           # has to match the resources in `cloud`
 
 def userdetails(userid):
