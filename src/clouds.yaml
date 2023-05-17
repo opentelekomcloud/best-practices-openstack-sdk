@@ -1,0 +1,15 @@
+clouds:
+  otcproject:
+    profile: otc
+    auth:
+      username: user1
+      password: s3cr3t
+      project_name: eu-de
+      user_domain_name: OTC00000000001000000***
+  otcdomain:
+    profile: otc
+    auth:
+      username: user1
+      password: s3cr3t
+      user_domain_name: OTC00000000001000000***
+      domain_name: OTC00000000001000000***
